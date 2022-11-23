@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  /*   border: solid 1px red; */
+}
+
+label {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
